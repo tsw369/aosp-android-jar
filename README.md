@@ -92,7 +92,7 @@ source build/envsetup.sh
 
 # 要兼容多架构，选择 aosp_cf_x86_phone-userdebug 或类似目标
 # 该目标会生成与架构无关的 framework.jar
-lunch aosp_cf_x86_phone-userdebug
+lunch aosp_arm64-eng
 
 # 3. 设置环境变量
 export UNSAFE_DISABLE_HIDDENAPI_FLAGS=true
